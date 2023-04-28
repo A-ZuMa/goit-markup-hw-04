@@ -103,8 +103,11 @@ p {
 **/
 .header {
   border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
-.header-container {
+
+.header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -125,10 +128,6 @@ p {
 .logo-sec-txt {
   color: var(--secondary-text-color);
 }
-
-/* .header-logo {
-  display: inline-block;
-} */
 
 .main-nav {
   display: flex;
@@ -245,7 +244,7 @@ p {
 
 /**
   |=================================
-  | Features sections
+  | Features sections #1
   |=================================
 **/
 
@@ -270,10 +269,13 @@ p {
 .features {
   display: flex;
   gap: 24px;
-  /* margin-bottom: 120px; */
 }
 
-.subcontainer {
+.features .subcontainer {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.team-section .subcontainer {
   width: calc((100% - 3 * 24px) / 4);
   background: #ffffff;
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
@@ -283,9 +285,9 @@ p {
 }
 
 /**
-  |============================
-  | What we are doing S#3
-  |============================
+  |==============================
+  | What we are doing Section #2
+  |==============================
 **/
 
 .doing-section {
@@ -311,9 +313,9 @@ p {
   color: var(--secondary-text-color);
 }
 
-team-section > .team-title {
+/* .team-section > .team-title {
   margin-bottom: 72px;
-}
+} */
 
 .team-section {
   background-color: #f4f4fd;
@@ -326,7 +328,7 @@ team-section > .team-title {
 
 /**
   |============================
-  | Our Team Section
+  | Our Team Section #3
   |============================
 **/
 
