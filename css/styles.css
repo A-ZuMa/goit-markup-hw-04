@@ -512,7 +512,7 @@ p {
   |=================================
 **/
 
-.filters-section {
+.projects-section {
   padding: 96px 0 120px;
 }
 
@@ -520,7 +520,6 @@ p {
   display: flex;
   gap: 24px;
   justify-content: center;
-  /* margin-top: 96px; */
   margin-bottom: 72px;
 }
 
@@ -548,9 +547,10 @@ p {
 
 /**
   |============================
-  | Projects section
+  | Projects section #2
   |============================
 **/
+
 .projects-link {
   display: block;
 }
